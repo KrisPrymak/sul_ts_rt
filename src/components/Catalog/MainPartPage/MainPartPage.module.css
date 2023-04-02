@@ -1,0 +1,18 @@
+.mainPartPage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .mainPartPage {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+}

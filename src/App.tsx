@@ -1,24 +1,26 @@
-import React from 'react';
-import logo from './logo.svg';
+import Header from "./components/Header/Header";
 import './App.css';
+import { Route, Routes } from "react-router-dom";
+import Footer from "./components/Footer/Footer";
+import Catalog from "./components/Catalog/Catalog";
+import ItemPage from "./components/ItemPage/ItemPage";
+import BasketPage from "./components/BasketPage/BasketPage";
+import AdminPanel from './components/AdminPanel/AdminPanel'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <div className='main'>
+      <Routes>
+      <Route path='/' element={<Catalog />} />
+        <Route path='/basketPage' element={<BasketPage />} />
+        <Route path='/catalog' element={<Catalog />} />
+        <Route path='/item/:barcode' element={<ItemPage />} />
+        <Route path='/adminPanel' element={<AdminPanel />} />
+      </Routes>
+      </div>
+      <Footer />
     </div>
   );
 }

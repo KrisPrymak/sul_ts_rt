@@ -1,0 +1,37 @@
+.container {
+    width: 277px;
+    /* border: 1px solid black; */
+}
+
+.filter__title {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.category {
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.categoryChoosed {
+    font-weight: 500;
+    margin-bottom: 20px;
+    cursor: pointer;
+    background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.categories {
+    margin-top: 40px;
+}
+
+.filterButtons {
+    display: flex;
+    justify-content: space-between;
+}

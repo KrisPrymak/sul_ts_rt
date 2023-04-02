@@ -1,0 +1,18 @@
+
+.prenav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 25px;
+}
+
+@media (max-width: 1000px) {
+    .prenav {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .catalog {
+        display: flex;
+        flex-direction: column;
+    }
+}

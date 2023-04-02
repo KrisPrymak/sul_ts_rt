@@ -1,0 +1,21 @@
+.contacts {
+    display: flex;
+}
+
+.contacts img {
+    margin-right: 15px;
+}
+
+.text {
+    width: 240px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 1.29;
+}
+
+.subtext {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 1.2;
+    color: #3F4E65;
+}

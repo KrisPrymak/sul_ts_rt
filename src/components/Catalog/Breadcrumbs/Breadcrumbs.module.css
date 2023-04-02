@@ -1,0 +1,51 @@
+.breadcrumbs {
+    margin-bottom: 50px;
+    font-weight: 300;
+    color: #3F4E65;
+}
+
+.black {
+    margin-right: 10px;
+    font-weight: 300;
+    color: #3F4E65;
+}
+
+.blackClick {
+    margin-right: 10px;
+    font-weight: 300;
+    color: #3F4E65;
+    cursor: pointer;
+}
+
+.secondGrey {
+    padding-left: 10px;
+    border-left: 1px dashed rgba(63, 78, 101, .3);
+    color: rgba(63, 78, 101, .5);
+    font-weight: 300;
+}
+
+.secondBlack {
+    padding-left: 10px;
+    margin-right: 10px;
+    border-left: 1px dashed rgba(63, 78, 101, .3);
+    font-weight: 300;
+    color: #3F4E65;
+    cursor: pointer;
+}
+
+.secondBlack:hover {
+    text-decoration: underline;
+}
+
+.third {
+    color: rgba(63, 78, 101, .5);
+    padding-left: 10px;
+    border-left: 1px dashed rgba(63, 78, 101, .3);
+    font-weight: 300;
+}
+
+@media (max-width: 1000px) {
+    .breadcrumbs {
+        display: none;
+    }
+}

@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+}
+
+.trolley {
+    margin-right: 24px;
+    
+}
+
+.trolley__container {
+    position: relative;
+    cursor: pointer;
+}
+
+.trolley:hover {
+    background-color: #EDEDED;
+    border-radius: 4px;
+}
+
+.count {
+    position: absolute;
+    background-color: #FFC85E;
+    color: #FFFFFF;
+    border-radius: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid #FFFFFF;
+    font-weight: 700;
+    bottom: 23px;
+    right: 11px;
+    width: 35px;
+    height: 35px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 12px;
+    color: #3F4E65;
+    font-weight: 300;
+}
+
+.price {
+    font-weight: 600;
+}
+
+@media (max-width: 999px) {
+    .text {
+        display: none;
+    }
+}

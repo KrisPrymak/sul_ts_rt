@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+}
+
+.title {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.select, .choosed {
+    margin-left: 5px;
+}
+
+.select p, .choosed p {
+    font-size: 16px;
+    color: #3F4E65;
+}
+.select p img, .choosed p img {
+    width: 7px;
+    height: 20px;
+    vertical-align: sub;
+    cursor: pointer;
+}
+
+.choosed {
+    cursor: pointer;
+}

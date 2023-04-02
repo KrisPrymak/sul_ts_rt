@@ -1,0 +1,25 @@
+.container {
+    margin-bottom: 30px;
+}
+.title {
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.title__text {
+    color: #3F4E65;
+}
+
+.filter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input {
+    background: linear-gradient(90deg, rgba(255, 198, 80, 0.3) 0%, rgba(254, 202, 110, 0.3) 97.25%);
+border-radius: 1000px;
+color: #3F4E65;
+width: 100px;
+text-align: center;
+border: none;
+}

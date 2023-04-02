@@ -1,0 +1,25 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 12px;
+  background: #ffc85e;
+  border-radius: 1000px;
+  cursor: pointer;
+}
+
+.menu:hover {
+    background: rgba(255, 200, 94, .5);
+}
+
+.line {
+  width: 9px;
+  background-color: #ffffff;
+  height: 2px;
+}
+
+@media (min-width: 1000px) {
+    .menu {
+        display: none;
+    }
+}

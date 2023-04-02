@@ -1,0 +1,139 @@
+.item {
+  display: flex;
+}
+
+.img {
+  max-width: 664px;
+  max-height: 471px;
+  margin-right: 40px;
+}
+
+.item__info {
+  max-width: 628px;
+  width: 100%;
+}
+
+.info__main {
+    margin-bottom: 25px;
+}
+
+.item__inStock {
+  color: #1fd85d;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 30px;
+}
+
+.brand {
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 11px;
+}
+
+.size__text {
+  margin-left: 8px;
+  font-size: 12px;
+  color: #3f4e65;
+}
+
+.item__bottom {
+  display: flex;
+  max-width: 490px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.bottom__price {
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.extraInfo {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.extraInfo__share {
+  border: none;
+  background-color: #ffffff;
+  padding: 28px;
+  box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+  border-radius: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.extraInfo__offer {
+  margin-right: 10px;
+  padding: 20px 35px;
+  box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+  border-radius: 10px;
+  text-align: center;
+  max-width: 316px;
+  width: 100%;
+  font-size: 12px;
+}
+
+.offer__price {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.extraInfo__priceList {
+  border: none;
+  background-color: #ffffff;
+  padding: 30px 38px;
+    text-align: center;
+  box-shadow: 0px 15px 70px -11px rgba(43, 28, 1, 0.04);
+  border-radius: 10px;
+  color: #3F4E65;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.extraInfo__priceList img {
+    margin-left: 12px;
+}
+
+.info__description {
+    margin-bottom: 40px;
+}
+
+.description__title, .character__title {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.description__title img, .character__title img {
+    width: 7px;
+    height: 7px;
+    cursor: pointer;
+}
+
+.description__text {
+    font-size: 12px;
+    font-weight: 300;
+    color: #3F4E65;
+}
+
+@media (max-width: 1000px) {
+  .item {
+      display: flex;
+      flex-direction: column;
+  }
+  .img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}

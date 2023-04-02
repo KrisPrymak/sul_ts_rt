@@ -1,0 +1,28 @@
+
+.count__button {
+    background: linear-gradient(
+      90deg,
+      rgba(255, 198, 80, 0.3) 0%,
+      rgba(254, 202, 110, 0.3) 97.25%
+    );
+    border-radius: 1000px;
+    border: none;
+    padding: 4px 14px;
+    width: 34px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .count__button:hover {
+      background: rgba(255, 198, 80, .5)
+  }
+  
+  .count__container {
+    display: flex;
+    max-width: 115px;
+    width: 100%;
+    justify-content: space-between;
+  }
+  

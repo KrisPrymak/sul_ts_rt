@@ -1,0 +1,14 @@
+.main__row {
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.row__title {
+    font-weight: 300;
+    color: #3F4E65;
+    margin-right: 5px;
+}
+
+.row__text {
+    font-weight: 500;
+}

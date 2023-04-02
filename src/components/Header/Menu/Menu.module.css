@@ -1,0 +1,10 @@
+.menu {
+    max-width: 512px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu__link {
+    color: #3F4E65;
+}
